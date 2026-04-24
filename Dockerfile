@@ -26,6 +26,10 @@ RUN npm ci \
 # 复制项目源码
 COPY . .
 
+# Add a healthcheck so Docker can detect if the app stops responding
+HEALTHCHECK --interval=30s --timeout=10s --start-period=15s --retries=3 \
+  CMD curl -f http://localhost:5001/health || exit 1
+
 EXPOSE 3000 5001
 
 # 同时启动前后端（开发模式）
