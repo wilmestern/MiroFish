@@ -25,6 +25,8 @@
 </div>
 
 > **个人学习笔记**：这是我 fork 的个人学习版本，主要用于研究多智能体仿真与群体智能预测技术。上游项目地址：[666ghj/MiroFish](https://github.com/666ghj/MiroFish)
+>
+> **学习重点**：目前重点阅读 `agent` 模块中的记忆管理与行为决策逻辑，以及种子信息的解析流程。
 
 ## ⚡ 项目概述
 
@@ -65,9 +67,4 @@ MiroFish 致力于打造映射现实的群体智能镜像，通过捕捉个体�
 </table>
 </div>
 
-## 🎬 演示视频
-
-### 1. 武汉大学舆情推演预测 + MiroFish项目讲解
-
-<div align="center">
-<a href="https://www.bilibili.com/video/BV1VYBsBH
+#
