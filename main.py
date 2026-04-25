@@ -34,7 +34,9 @@ def get_config() -> dict:
         "mqtt_broker": os.getenv("MQTT_BROKER", ""),
         "mqtt_port": int(os.getenv("MQTT_PORT", "1883")),
         "mqtt_topic_prefix": os.getenv("MQTT_TOPIC_PREFIX", "mirofish"),
-        "sensor_poll_interval": int(os.getenv("SENSOR_POLL_INTERVAL", "60")),
+        # Increased default poll interval to 30s for more responsive sensor readings
+        # on my Raspberry Pi setup
+        "sensor_poll_interval": int(os.getenv("SENSOR_POLL_INTERVAL", "30")),
     }
 
     # Validate required configuration
