@@ -27,6 +27,12 @@
 > **个人学习笔记**：这是我 fork 的个人学习版本，主要用于研究多智能体仿真与群体智能预测技术。上游项目地址：[666ghj/MiroFish](https://github.com/666ghj/MiroFish)
 >
 > **学习重点**：目前重点阅读 `agent` 模块中的记忆管理与行为决策逻辑，以及种子信息的解析流程。
+>
+> **阅读进度**（个人备忘）：
+> - [x] `agent/memory.py` — 长期记忆的存储与检索机制
+> - [x] `agent/decision.py` — 行为决策树结构
+> - [ ] `seed/parser.py` — 种子信息解析流程（待深入）
+> - [ ] `simulation/world.py` — 平行世界构建逻辑（待阅读）
 
 ## ⚡ 项目概述
 
@@ -62,9 +68,4 @@ MiroFish 致力于打造映射现实的群体智能镜像，通过捕捉个体�
 </tr>
 <tr>
 <td><img src="./static/image/Screenshot/运行截图5.png" alt="截图5" width="100%"/></td>
-<td><img src="./static/image/Screenshot/运行截图6.png" alt="截图6" width="100%"/></td>
-</tr>
-</table>
-</div>
-
-#
+<td><img src="./static/image/Screenshot/运行截图6.pn
